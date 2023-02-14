@@ -52,10 +52,10 @@
 
 
 //         user.token = token
-//         // dont want to send the password
-//         user.password = undefined
+// dont want to send the password
+user.password = undefined
 
-//         res.status(201).json(user)
+res.status(201).json(user)
 
 
 //     } catch (error) {
