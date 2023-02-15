@@ -58,10 +58,10 @@ user.password = undefined
 res.status(201).json(user)
 
 
-//     } catch (error) {
-//         console.log(error + " error in response router");
-//     }
-// })
+    } catch (error) {
+        console.log(error + " error in response router");
+    }
+})
 
 // app.post("/login", async (req, res) => {
 //     try {
